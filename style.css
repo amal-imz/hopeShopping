@@ -1,0 +1,251 @@
+
+/**
+{
+border:10;
+margin: 0;
+}*/
+#main {
+	width: 940px;
+	margin: 0px auto;
+	padding: 0px 45px 0px 45px;
+	background:url(image/main.png) right repeat-y;	
+	}
+
+	
+body{
+	font: 12px Arial, Helvetica, sans-serif;
+	/*background: url(image/wlc.jpg);*/
+	width:auto;
+	line-height: 18px;
+	color:red;
+}
+
+	#header {
+	height: 200px;
+}
+
+.line { border-top: 5px solid #585858;}
+
+.but_razd { height: 10px;
+			width: 30px;
+			float: left;}
+
+
+	#logo {	
+		padding: 0px 0px 0px 100px;
+		width: 200px;
+		float:right;
+		 position:relative;}
+		 
+	#logo H2 a{
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:100;
+	text-align:left;
+}
+#content1{/*les donnes*/
+	/*background: url(images/content.png);*/
+	padding: 0px 0px 0px 0px;
+	color:pink;
+	text-align:left;
+	 font-size: 25px;
+		font-family:time new roman , Helvetica, sans-serif;
+		/*border-style : solid;*/;
+
+	
+	
+}
+#content{/*les donnes*/
+background: url(image/content.png);
+	padding: 0px 0px 0px 0px;
+}
+.img{ /*tsawr liwst*/
+background-repeat:no-repeat-x;
+width:100px;
+height:100px;
+padding:5px 5px 5px 5px;
+}
+	
+
+
+
+#buttons{
+	text-align:center;
+	height: 42px;
+	width: 517px;
+	padding-left: 0px;
+	background: url(images/buttons.png) left top no-repeat;
+	padding: 38px 0px 0px 0px;
+	float: right;
+}
+
+#buttons a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: navy;
+	text-align: center;
+	height: 30px;
+	text-transform: uppercase;
+	
+}
+
+#buttons .but:hover {
+	background: url(images/but_hover.png) center center no-repeat;
+	color:#038760;
+	text-decoration: underline;
+	}
+.but_t {background: url(images/but_hover.gif) center bottom no-repeat;}
+.top { height: 500px;
+		width: 940px;
+}
+
+	
+/*.top_left { float: left;
+			width: 576px;
+			height: 240px;
+			}
+			
+.top_right { float: right;
+			width:284px;
+			height: 243px;
+			background: url(image/top_right.png);
+			padding: 30px 40px 20px 40px;}*/
+
+		
+/*.circl_all {
+		height: 19px; 
+		vertical-align:top;
+		padding: 290px 0px 0px 40px;}*/
+
+.circl { background: url(image/circl.png) left top no-repeat;
+	height: 19px;
+	width: 19px;
+	margin: 0px 10px 0px 0px;
+	float: left;
+	display:block;}
+.circl:hover {
+	background:url(image/circl_hov.png) left top no-repeat; }
+
+
+
+
+.img{ 
+background-repeat:no-repeat-x;
+width:300px;
+height:300px;
+padding: 5px 5px 5px 5px;
+}
+
+	
+.item { width: 940px; height: 439px;}
+.item img {float:left;}
+.item h2 { border:none; margin-bottom:15px;}
+
+.scrollable { position:relative; overflow:hidden; width: 940px; height: 439px;} 
+.scrollable .items { width:20000em; position:absolute;}
+.scrollable .items div { float:left;} 
+.scrollable .items .item { overflow:hidden;}
+.scrollable .items .item p { line-height:16px;}	
+.navi { width:auto; height:20px;  margin:5px 0; padding-left: 420px;}  
+.navi a { width: 20px; cursor:pointer; height: 20px; float:left; margin:0 0 0 3px; background:url(image/circl.png) no-repeat scroll top; display:block; font-size:1px;} 
+.navi a:hover, .navi a.active { background-position:left top; margin:0 0 0 3px;  background:url(image/circl_hov.png) no-repeat scroll top;}
+
+.header1
+{
+width: 940px; height: 940px;
+padding-top: 40px;
+background: url(image/top.jpg) no-repeat;
+}
+
+.header2
+{
+width: 2000px; height: 1000px;
+padding-top:90px;
+background: url(image/header2.jpg) no-repeat;
+}
+
+.header3
+{
+width: 940px; height: 940px;
+padding-top: 90px;
+background: url(image/header3.jpg) no-repeat;
+}
+
+.header4
+{
+width:1000px; height: 940px;
+padding-top: 90px;
+background: url(image/header4.jpg) no-repeat;
+}
+#content{
+	background: url(image/content.png);
+	padding: 0px 0px 0px 0px;
+}
+.fond
+{
+
+	background-image:url("bod.jpg");
+	width: 100%;
+	height:100%;
+
+}
+.text
+{
+		font:25px Arial, Helvetica, sans-serif;
+	    font-size:xx-larg;
+		Fond-family:Georgia;
+		font-style : italic ; 
+		/*Text-transform : uppercase ; */
+		color:fuchsia;text-align: center;
+}
+	
+	.cadre2
+	{
+	background-image:radial-gradient(white,pink );
+	border: 10px o;
+	border-style:ridge;
+	width: 800px;
+	height: auto;
+	margin: auto;
+	text-align: center ;
+	padding: 30px 30px 15px 30px;
+	border-radius: 1px 40px 1px;
+	}
+		
+label
+	{
+		width: 200px ;
+		height: 20px ;
+		text-align:center;
+		display: inline-block;
+		font-size:25px;
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+

@@ -1,0 +1,14 @@
+<?php
+$id=$POST['m'];$no_pr=md5($_POST['no_pr']);
+ $prod=$_POST['prod'];$dat=$_POST['dat'];$adr=$_POST['adre'];$tel=$_POST['tel'];
+ 
+ try
+{
+$con=new PDO('mysql:host=localhost;dbname=shoop;charset=utf8','root','');
+}
+catch(Exception $e)
+{die ('erreur de connection de type');}
+$cmd=$con->prepare('insert into utilisateur(cin,no_pr,prod,dat,adre,tel)values(?,?,?,?,?,?)');
+$cmd->execute(array($cin,$no_pr,$prod,$dat,$adre,$tel));
+header('location:shopping.com/inscription.php');
+
